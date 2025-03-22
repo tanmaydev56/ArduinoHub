@@ -19,14 +19,15 @@ function App() {
     
       <>
       <Navbar />
+      <button onClick={() => navigate(-1)} className=" bg-blue-600 absolute left-10 top-20 font-bold mb-4 cursor-pointer text-white rounded-full px-3 py-2 flex items-center">
+        ← Back
+      </button>
       <Routes>
         <Route
           path="/articles/lpg-robot"
           element={
             <>
-              <button onClick={() => navigate(-1)} className=" bg-blue-600 absolute left-10 top-20 font-bold mb-4 cursor-pointer text-white rounded-full px-3 py-2 flex items-center">
-        ← Back
-      </button>
+             
               <Main />
               <Application />
               <SuppliesDesc />
