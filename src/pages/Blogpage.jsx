@@ -9,7 +9,7 @@ const articles = [
 
 const Articles = () => {
   return (
-    <div className="max-w-3xl mx-auto p-6">
+    <div className="max-w-3xl mx-auto p-6 mt-10">
       <h2 className="text-3xl font-bold text-blue-600 mb-4">📖 Arduino Articles</h2>
       <ul className="space-y-3">
         {articles.map((article) => (

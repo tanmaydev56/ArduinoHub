@@ -34,7 +34,7 @@ function App() {
         <Route
           path="/articles/lpg-robot"
           element={
-            <>
+            <div className="mt-10">
               <Main />
               <Application />
               <SuppliesDesc />
@@ -44,7 +44,7 @@ function App() {
               {/* <CodePreview /> */}
               <CodeBlockDemo/>
               <Summary />
-            </>
+            </div>
           }
         />
         <Route path="/articles" element={<Articles />} />
