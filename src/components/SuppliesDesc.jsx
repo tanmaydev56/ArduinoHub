@@ -57,7 +57,7 @@ const SuppliesDesc = () => {
   };
 
   return (
-    <div className="w-full h-auto flex flex-col items-center p-6 bg-gray-100">
+    <div className="w-full h-auto flex flex-col items-center p-6 ">
     <h2 className="text-2xl font-bold text-blue-600 mb-4">Supplies Used</h2>
     <div className="w-full max-w-2xl bg-white p-6 rounded-lg shadow-lg">
       {supplies.map((item, index) => (

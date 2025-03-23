@@ -16,7 +16,7 @@ const materials = [
 
 const MaterialsPhotos = () => {
   return (
-    <div className="w-full p-6 bg-gray-100 flex flex-col items-center">
+    <div className="w-full p-6  flex flex-col items-center">
       <h2 className="text-2xl font-bold text-blue-600 mb-6">Materials & Components</h2>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {materials.map((item, index) => (
