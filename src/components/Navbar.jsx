@@ -9,6 +9,9 @@ const Navbar = () => {
       <NavLink to="/articles"
       className="text-white hover:text-gray-300 text-xl mr-4">
       Article</NavLink>
+      <NavLink to="/founders"
+      className="text-white hover:text-gray-300 text-xl mr-4">
+      Founders</NavLink>
       </nav>
     </div>
   );

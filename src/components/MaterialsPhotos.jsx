@@ -1,7 +1,7 @@
 import React from "react";
 
 const materials = [
-  { name: "Arduino Uno", image: "Arduino.webp" },
+  { name: "Arduino Uno", image: "/Arduino.webp" },
   { name: "Ultrasonic Sensor", image: "/Ultrasonic.webp" },
   { name: "Temperature Sensor", image: "/Temp.webp" },
   { name: "Servo Motor", image: "/Servo.webp" },

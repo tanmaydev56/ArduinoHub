@@ -12,6 +12,7 @@ import BlogDetail from "./pages/BlogDetail";
 import Articles from "./pages/Blogpage";
 import MainDashboard from "./pages/MainDashboard";
 import Circuitdiagram from "./components/Circuitdiagram";
+import Founder from "./pages/Founder";
 
 function App() {
   const navigate = useNavigate();
@@ -47,6 +48,7 @@ function App() {
         <Route path="/articles" element={<Articles />} />
         <Route path="/articles/:id" element={<BlogDetail />} />
         <Route path="/" element={<MainDashboard />} />
+        <Route path="/founders" element={<Founder/>}/>
       </Routes>
     </>
   );
