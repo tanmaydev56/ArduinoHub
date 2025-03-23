@@ -43,16 +43,16 @@ const Navbar = () => {
         <button onClick={() => setIsOpen(false)} className="self-end">
           <X size={28} />
         </button>
-        <a href="/" className="text-xl hover:text-gray-300">Home</a>
-        <a href="/articles" className="text-xl hover:text-gray-300">Articles</a>
-        <a href="/founders" className="text-xl hover:text-gray-300">Founders</a>
+        <NavLink to="/" className="text-xl hover:text-gray-300">Home</NavLink>
+        <NavLink to="/articles" className="text-xl hover:text-gray-300">Articles</NavLink>
+        <NavLink to="/founders" className="text-xl hover:text-gray-300">Founders</NavLink>
       </motion.div>
 
       {/* Desktop Menu */}
       <div className="hidden md:flex gap-6 text-lg">
-        <a href="/" className="hover:text-gray-300">Home</a>
-        <a href="/articles" className="hover:text-gray-300">Articles</a>
-        <a href="/founders" className="hover:text-gray-300">Founders</a>
+        <NavLink to="/" className="hover:text-gray-300">Home</NavLink>
+        <NavLink to="/articles" className="hover:text-gray-300">Articles</NavLink>
+        <NavLink to="/founders" className="hover:text-gray-300">Founders</NavLink>
       </div>
     </nav>
   
