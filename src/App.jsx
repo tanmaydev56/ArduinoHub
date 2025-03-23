@@ -11,6 +11,7 @@ import "./App.css";
 import BlogDetail from "./pages/BlogDetail";
 import Articles from "./pages/Blogpage";
 import MainDashboard from "./pages/MainDashboard";
+import Circuitdiagram from "./components/Circuitdiagram";
 
 function App() {
   const navigate = useNavigate();
@@ -37,6 +38,7 @@ function App() {
               <SuppliesDesc />
               <MaterialsPhotos />
               <ConnectionsList />
+              <Circuitdiagram/>
               <CodePreview />
               <Summary />
             </>
