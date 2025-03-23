@@ -13,6 +13,7 @@ import Articles from "./pages/Blogpage";
 import MainDashboard from "./pages/MainDashboard";
 import Circuitdiagram from "./components/Circuitdiagram";
 import Founder from "./pages/Founder";
+import { CodeBlockDemo } from "./components/AcernityCodeblock";
 
 function App() {
   const navigate = useNavigate();
@@ -40,7 +41,8 @@ function App() {
               <MaterialsPhotos />
               <ConnectionsList />
               <Circuitdiagram/>
-              <CodePreview />
+              {/* <CodePreview /> */}
+              <CodeBlockDemo/>
               <Summary />
             </>
           }

@@ -11,16 +11,23 @@
   },
   "dependencies": {
     "@codemirror/lang-cpp": "^6.0.2",
+    "@tabler/icons-react": "^3.31.0",
     "@tailwindcss/vite": "^4.0.15",
+    "@types/react-syntax-highlighter": "^15.5.13",
     "@uiw/codemirror-themes": "^4.23.10",
     "@uiw/react-codemirror": "^4.23.10",
+    "clsx": "^2.1.1",
     "framer-motion": "^12.5.0",
     "lucide-react": "^0.483.0",
+    "motion": "^12.5.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.4.0",
+    "react-syntax-highlighter": "^15.6.1",
+    "tailwind-merge": "^3.0.2",
     "tailwindcss": "^4.0.15"
   },
+ 
   "devDependencies": {
     "@eslint/js": "^9.21.0",
     "@types/react": "^19.0.10",
