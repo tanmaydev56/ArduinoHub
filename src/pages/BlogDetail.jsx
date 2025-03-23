@@ -11,7 +11,7 @@ const BlogDetail = () => {
   const { slug } = useParams();
   const blog = blogData[slug];
 
-  if (!blog) return <h2 className="text-red-500 text-center">Blog not found!</h2>;
+  if (!blog) return <h2 className="mt-10 text-red-500 text-center">Coming Soon!</h2>;
 
   return (
     <div className="max-w-3xl mx-auto p-6">
